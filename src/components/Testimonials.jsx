@@ -7,13 +7,13 @@ const Testimonials = () => (
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-      <h2 className={styles.heading2}>
-        What People are <br className="sm:block hidden" /> saying about us
-      </h2>
+      {/*<h2 className={styles.heading2}>
+         <br className="sm:block hidden" /> saying about us
+      </h2>*/}
       <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Everything you need to accept card payments and grow your business
-          anywhere on the planet.
+        <h1 className={`${styles.heading2} text-left margin-left 10 em  max-w-[1500px]`}>About 202 META</h1>
+        <p className={`${styles.paragraph} text-centre  max-w-[1500px]`}>
+        202 META is committed to making a positive & sustainable impact on the global community and the environment they are a part of through industry leading technology. At 202 META we will plan to provide our community with a new experience of Metaverse through NFTs , Play to Earn Games , Crypto mining and also swapping different tokens through our decentralized exchange platform. In order to make our platform more cost effective we use EOSIO Blockchain based technologies and smart contracts so that transcation fees inside the network is zero.
         </p>
       </div>
     </div>

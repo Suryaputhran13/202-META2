@@ -1,21 +1,25 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,   } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Home"
   },
   {
     id: "features",
-    title: "Features",
+    title: "Projects",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Mission",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "About Us",
+  },
+  {
+    id: "contact",
+    title: "Contact Us",
   },
 ];
 
@@ -23,147 +27,117 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "NFT MARKETPLACE",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The best cost effective platform to create, list and trade your NFTs and also tokenize all your digital assets. Protected by wallet integration and the power of smart contracts we provide you a secure platform to hold your digital assets",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: star,
+    title: "METAVERSE",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We offer you a whole new experience in the metaverse space with the best technologies available.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: star,
+    title: "DEX",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "An all in one decentralized platform to swap,convert or trade your digital assets directly between traders.Our platform is protected by highly secure cryptowallet integrations and powered by EOS smart contracts.",
   },
+  {
+    id: "feature-2",
+    icon: star,
+    title: "CRYPTO MINING (MOVE TO EARN GAME)",
+    content:
+      "We introduce a different concept for mining our gaming token.The token supply would be uncapped and every 1000 steps would successfully mint a coin.To build utilities for this coin we offer in game marketplaces,rewards to users and also when a certain threshold of users are met we will conduct launchpad sales and public lisiting.",
+  },
+ 
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
+      "Technology is best when it brings people together",
+    },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "People don't understand NFTs, Metaverse, and crypto today the same way they didn't understand online shopping in 1995",
+    
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "In simplest terms, the metaverse is the internet, but in 3D.",
+    
   },
+  
 ];
 
 export const stats = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
+/*    id: "stats-1",
+    title: "",
+    value: "",
+  */},
+  {/*
     id: "stats-2",
     title: "Trusted by Company",
     value: "230+",
-  },
-  {
+*/},
+  {/*
     id: "stats-3",
     title: "Transaction",
     value: "$230M+",
-  },
+*/},
 ];
+
+
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    
     links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+      
+   
+     
     ],
   },
   {
-    title: "Community",
+   
     links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+     
+   
+    
     ],
   },
   {
-    title: "Partner",
+    
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+       
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        
+      
       },
     ],
   },
 ];
+
 
 export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/202.portal/?hl=en",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/202portal/",
   },
   {
     id: "social-media-3",
@@ -173,15 +147,12 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/202portal/?originalSubdomain=ae",
   },
 ];
 
 export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
+  
   {
     id: "client-2",
     logo: binance,
