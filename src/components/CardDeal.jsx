@@ -1,4 +1,4 @@
-import { card } from "../assets";
+
 import styles, { layout } from "../style";
 import Button from "./Button";
 import metaverse from "../assets/metaverse.png";
@@ -15,7 +15,6 @@ const CardDeal = () => (
         We use cutting edge technologies to provide our clients with the best services available in the market.
       </p>
 
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
