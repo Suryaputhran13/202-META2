@@ -142,7 +142,7 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/202Portal",
   },
   {
     id: "social-media-4",
