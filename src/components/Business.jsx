@@ -26,7 +26,7 @@ const Business = () =>  (
         the technology.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right use of technology you can improve your missionivity and provide the best output to the community
+        With the right use of technology you can improve your productivity and provide the best output to the community
       </p>
 
    

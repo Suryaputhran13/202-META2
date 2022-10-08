@@ -29,28 +29,28 @@ export const features = [
     icon: star,
     title: "NFT MARKETPLACE",
     content:
-      "The best cost effective platform to create, list and trade your NFTs and also tokenize all your digital assets. Protected by wallet integration and the power of smart contracts we provide you a secure platform to hold your digital assets",
+      "The best cost effective platform to create, list and trade your NFTs and also tokenize all your assets. Protected by wallet integration and the power of smart contracts we provide you a secure platform to hold your digital assets",
   },
   {
     id: "feature-2",
     icon: star,
     title: "METAVERSE",
     content:
-      "We offer you a whole new experience in the metaverse space with the best technologies available.",
+      "Considered as the next evolution of internet we offer you a whole new immersive experience in the virtual world with the best digital experience from trading virtual properies,listings,play to earn games and much more",
   },
   {
     id: "feature-3",
     icon: star,
     title: "DEX",
     content:
-      "An all in one decentralized platform to swap,convert or trade your digital assets directly between traders.Our platform is protected by highly secure cryptowallet integrations and powered by EOS smart contracts.",
+      "An all in one decentralized platform to swap,convert or trade your digital assets directly between traders and also a dex launchpad for different companies to conduct token offerings.Our platform is protected by highly secure cryptowallet integrations and powered by EOS smart contracts.",
   },
   {
     id: "feature-2",
     icon: star,
     title: "CRYPTO MINING (MOVE TO EARN GAME)",
     content:
-      "We introduce a different concept for mining our gaming token.The token supply would be uncapped and every 1000 steps would successfully mint a coin.To build utilities for this coin we offer in game marketplaces,rewards to users and also when a certain threshold of users are met we will conduct launchpad sales and public lisiting.",
+      "We introduce a different concept for mining our Gaming token.The token supply would be uncapped and token minting will be based on movement.To build real use case  for this token we offer in game marketplaces,rewards to users and also when a certain threshold of users are met we will conduct launchpad sales and public lisitings.",
   },
  
 ];
@@ -64,13 +64,13 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "People don't understand NFTs, Metaverse, and crypto today the same way they didn't understand online shopping in 1995",
+      "People don't understand NFTs, Metaverse, and Crypto today the same way they didn't understand online shopping in 1995",
     
   },
   {
     id: "feedback-3",
     content:
-      "In simplest terms, the metaverse is the internet, but in 3D.",
+      "In simplest terms, the Metaverse is the Internet, but in 3D.",
     
   },
   
