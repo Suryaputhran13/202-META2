@@ -1,5 +1,10 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
+import nft1 from "../assets/nft1.png";
+import nft2 from "../assets/nft2.png";
+import vr from "../assets/vr.png";
+import dex1 from "../assets/dex1.png";
+import dex3 from "../assets/dex3.png";
 
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -19,20 +24,27 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className={layout.section}>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the technology.
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right use of technology you can improve your productivity and provide the best output to the community
-      </p>
-
+  <section id="features" className={layout.sectionImg}>
+    <div className={layout.sectionInfo} >
+      
+     
+    <div className={`${layout.sectionInfo} flex-col display : block;`}>  <img src={nft1} alt="non fungible tokens" className="w-[100%] h-[10%] relative z-[5]" /> </div>
+     <br></br> 
+     <br></br>
+    <div className={`$layout.sectionInfo`}  > <img src={nft2} alt="non fungible tokens" className="w-[100%] h-[10%] sticky z-[4] display : block;" /> </div>
+     <br></br>
+     <br></br>
+     <div> <img src={dex1} alt="decentralized_exchange" className="w-[100%] h-[100%] sticky z-[5] display : block;" /> </div>
+     <br></br>
+     <br></br>
+     <div> <img src={dex3} alt="decenralized_exchange" className="w-[100%] h-[40%]  relative z-[5]"/> </div> 
+     
    
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
+      
+
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
